@@ -1,4 +1,4 @@
-# Gavin's index markdown document
+# Gavin's markdown document
 
 *Click the link below*
 
