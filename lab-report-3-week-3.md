@@ -68,7 +68,7 @@ SearchEngine Code:
         }
     }
 
-Using /add:
+**Using /add:**
 
 ![Image](searchengine_add.png)
 
@@ -90,7 +90,7 @@ ArrayList< String > strings: ["yo", "yogurt"]
 
 Returned value: "yogurt has been added to the list of strings!"
 
-Home page:
+**Home page:**
 
 ![Image](searchengine_home.png)
 
@@ -112,7 +112,7 @@ String result: "yo, yogurt, yoplait, daimyo, bottle, table, chair"
 
 Returned value: "List of strings stored: yo, yogurt, yoplait, daimyo, bottle, table, chair"
 
-Using /search:
+**Using /search:**
 
 ![Image](searchengine_search.png)
 
