@@ -72,13 +72,67 @@ Using /add:
 
 ![Image](searchengine_add.png)
 
+**Methods called:**
+
+public String handleRequest(URI url)
+
+**Initial values of relevant fields/arguments:**
+
+URI url: localhost:4000/add?s=yogurt
+
+ArrayList< String > strings: ["yo"]
+
+String[] parameters: ["s", "yogurt"]
+
+**Change in values:**
+
+ArrayList< String > strings: ["yo", "yogurt"]
+
+Returned value: "yogurt has been added to the list of strings!"
+
 Home page:
 
 ![Image](searchengine_home.png)
 
+**Methods called:**
+
+public String handleRequest(URI url)
+
+**Initial values of relevant fields/arguments:**
+
+URI url: localhost:4000/
+
+ArrayList< String > strings: ["yo", "yogurt", "yoplait", "daimyo", "bottle", "table", "chair"]
+
+String result: ""
+
+**Change in values:**
+
+String result: "yo, yogurt, yoplait, daimyo, bottle, table, chair"
+
+Returned value: "List of strings stored: yo, yogurt, yoplait, daimyo, bottle, table, chair"
+
 Using /search:
 
 ![Image](searchengine_search.png)
+
+**Methods called:**
+
+public String handleRequest(URI url)
+
+**Initial values of relevant fields/arguments:**
+
+URI url: localhost:4000/search?s=yo
+
+ArrayList< String > strings: ["yo", "yogurt", "yoplait", "daimyo", "bottle", "table", "chair"]
+
+String result: ""
+
+**Change in values:**
+
+String result: "yo, yogurt, yoplait, daimyo"
+
+Returned value: "Search results: yo, yogurt, yoplait, daimyo"
 
 ## Part 2: Debugging ArrayExamples and ListExamples
 
